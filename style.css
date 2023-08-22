@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%), url('./images/banner-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+.hero {
+    padding-top: 140px;
+    padding-bottom: 200px;
+}
+
+.banner {
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 600px;
+}
+
+.card-1 {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%), url('./images/card-1.png');
+
+}
+
+.card-2 {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%), url('./images/card-2.png');
+
+}
+
+.card-3 {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%), url('./images/card-3.png');
+
+}
+
+/* .f-cards-1 {
+    display: flex;
+    gap: 24px;
+
+} */
+
+.f-card {
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    /* gap: 32px; */
+}
+
+/* .f-cards-2 {
+    width: 50%;
+
+} */
+
+.my-128 {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.mx-margin {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/* .sponsors img {
+    filter: saturate(0%);
+} */

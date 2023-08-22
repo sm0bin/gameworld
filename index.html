@@ -10,21 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
 
-        * {
-            font-family: 'Work Sans', sans-serif;
-        }
-    </style>
-
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-dark">
-    <header style="background-image: url('./images/banner-1.png'); min-width: 100vw;">
-        <nav class="navbar navbar-expand-lg bg-dark px-5">
-            <div class="container-fluid">
+    <header class="w-auto">
+        <nav class="navbar navbar-expand-lg bg-dark bg-opacity-50">
+            <div class="mx-margin px-0 container-fluid">
                 <a class="navbar-brand fw-bold fs-1 text-white" href="#"><span class="text-warning">Game</span>world</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -68,15 +61,17 @@
             </div>
         </nav>
 
-        <!-- hero Section -->
-        <section class="py-xxl-5 px-5">
-            <h1 class="text-white">The Ultimate Competitive <span class="text-warning">Gaming</span> Platform</h1>
-            <p class="text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use before Letraset
+        <!-- Hero Section -->
+        <section class="mx-margin hero col-6">
+            <h1 class="text-white display-3 fw-bold">The Ultimate Competitive <span class="text-warning">Gaming</span>
+                Platform</h1>
+            <p class="text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use before
+                Letraset
                 made it popular as a dummy text in the 1960s, although McClintock says he remembers coming across the
                 passage in a book of old metal.</p>
             <div>
-                <button class="btn btn-warning">Join Us Now</button>
-                <button class="btn btn-outline-warning">Read More</button>
+                <button class="btn btn-warning text-dark fw-semibold fs-5 px-3 py-2 me-2">Join Us Now</button>
+                <button class="btn btn-outline-light fw-semibold fs-5 px-3 py-2 ">Read More</button>
             </div>
         </section>
 
@@ -84,133 +79,154 @@
 
     <main>
         <!-- New Released Games Section -->
-        <section class="py-xxl-5 container text-center text-white">
-            <h1 class="">New Released Games</h1>
-            <p class="text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use
-                before Letraset
-                made it popular
-                as a dummy text in the 1960s, although McClintock says he remembers coming across .</p>
+        <section class="my-128 mx-margin text-center text-white">
+            <div class="mx-auto w-75">
+                <h1 class=" mb-3 fw-semibold display-5">New Released Games</h1>
+                <p class="text-white text-opacity-75 mb-5">It's difficult to find examples of lorem ipsum in use
+                    before Letraset
+                    made it popular
+                    as a dummy text in the 1960s, although McClintock says he remembers coming across .</p>
+            </div>
 
-            <div class="d-grid ">
+            <div class="d-flex justify-content-between ">
                 <!-- Card -->
-                <div class="p-3 text-start" style="background-image: url('./images/card-1.png');">
+                <div class="p-3 text-start pt-lg-5 card-1">
                     <button class="btn btn-warning px-4 py-2 fw-semibold">Tablet</button>
                     <h4>Vanill Masters Administ
                         Ratio.</h4>
-                    <div class="d-flex align-items-center justify-content-center gap-2">
+                    <div class="d-flex align-items-center gap-2">
                         <img src="./images/icons/star.svg" alt="">
                         <p class="my-auto">8.6/10 Action-Rpg, Platform</p>
                     </div>
                 </div>
 
                 <!-- Card -->
-                <div class="p-3 text-start" style="background-image: url('./images/card-1.png');">
+                <div class="p-3 text-start pt-lg-5 card-2">
                     <button class="btn btn-warning px-4 py-2 fw-semibold">Tablet</button>
                     <h4>Vanill Masters Administ
                         Ratio.</h4>
-                    <div class="d-flex align-items-center justify-content-center gap-2">
+                    <div class="d-flex align-items-center gap-2">
                         <img src="./images/icons/star.svg" alt="">
                         <p class="my-auto">8.6/10 Action-Rpg, Platform</p>
                     </div>
                 </div>
 
                 <!-- Card -->
-                <div class="p-3 text-start" style="background-image: url('./images/card-1.png');">
+                <div class="p-3 text-start pt-lg-5 card-3">
                     <button class="btn btn-warning px-4 py-2 fw-semibold">Tablet</button>
                     <h4>Vanill Masters Administ
                         Ratio.</h4>
-                    <div class="d-flex align-items-center justify-content-center gap-2">
+                    <div class="d-flex align-items-center gap-2">
                         <img src="./images/icons/star.svg" alt="">
                         <p class="my-auto">8.6/10 Action-Rpg, Platform</p>
                     </div>
                 </div>
 
             </div>
-            <button class="btn btn-outline-warning">View All Games</button>
+            <button class="btn btn-outline-warning fw-semibold fs-5 px-4 py-2 mt-5">View All Games</button>
         </section>
 
-        <!-- Features Section -->
-        <section class="py-xxl-5 container  text-white">
-            <h1 class="text-center">The Best Gaming Studio
-                For All Gamer</h1>
-            <p class="text-center text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use
-                before Letraset
-                made it popular
-                as a dummy text in the 1960s, although McClintock says he remembers coming across.</p>
+        <!-- The Best Gaming Studio Section -->
+        <section class="my-128 mx-margin text-white">
+            <div class="w-75 mx-auto">
+                <h1 class="text-center mb-3 fw-semibold display-5">The Best Gaming Studio <br>
+                    For All Gamer</h1>
+                <p class="text-center text-white text-opacity-75 mb-5">It's difficult to find examples of lorem ipsum in
+                    use
+                    before Letraset
+                    made it popular
+                    as a dummy text in the 1960s, although McClintock says he remembers coming across.</p>
+            </div>
 
-            <div class="d-grid ">
-                <!-- Card -->
-                <div class="p-3 text-start d-flex align-items-start justify-content-center gap-2">
-                    <img src="./images/icons/live.svg" alt="">
-                    <div>
-                        <h4>Live Streaming</h4>
-                        <p class="my-auto">It's difficult to find examples of lorem ipsum in use before Letraset made it
-                            popular as a dummy text in the 1960s, although McClintock says he remembers coming across .
-                            It's difficult to find examples of lorem ipsum in use before Letraset made it popular as a
-                            dummy text in the 1960s, although McClintock says he remembers coming across .</p>
+            <div class="f-cards">
+                <div class="f-cards-1 d-flex gap-4">
+                    <!-- Card -->
+                    <div
+                        class="f-card p-5 bg-opacity-10 text-start d-flex align-items-start justify-content-center gap-4">
+                        <img src="./images/icons/live.svg" alt="">
+                        <div>
+                            <h4>Live Streaming</h4>
+                            <p class="text-white opacity-75">It's difficult to find examples of lorem ipsum in use
+                                before Letraset
+                                made it
+                                popular as a dummy text in the 1960s, although McClintock says he remembers coming
+                                across .
+                                It's difficult to find examples of lorem ipsum in use before Letraset made it popular as
+                                a
+                                dummy text in the 1960s, although McClintock says he remembers coming across .</p>
+                        </div>
+                    </div>
+
+                    <!-- Card -->
+                    <div
+                        class="f-card p-5 bg-opacity-10 text-start d-flex align-items-start justify-content-center gap-4    ">
+                        <img src="./images/icons/tournament.svg" alt="">
+                        <div>
+                            <h4>Great Tournament</h4>
+                            <p class="text-white opacity-75">It's difficult to find examples of lorem ipsum in use
+                                before Letraset
+                                made it
+                                popular as a dummy text in the 1960s, although McClintock says he remembers coming
+                                across .
+                                It's difficult to find examples of lorem ipsum in use before Letraset made it popular as
+                                a
+                                dummy text in the 1960s, although McClintock says he remembers coming across .</p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Card -->
-                <div class="p-3 text-start d-flex align-items-start justify-content-center gap-2">
-                    <img src="./images/icons/tournament.svg" alt="">
-                    <div>
-                        <h4>Great Tournament</h4>
-                        <p class="my-auto">It's difficult to find examples of lorem ipsum in use before Letraset made it
-                            popular as a dummy text in the 1960s, although McClintock says he remembers coming across .
-                            It's difficult to find examples of lorem ipsum in use before Letraset made it popular as a
-                            dummy text in the 1960s, although McClintock says he remembers coming across .</p>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="p-3 text-start d-flex align-items-start justify-content-center gap-2">
+                <div
+                    class="f-card f-cards-2 w-50 mx-auto p-5 bg-opacity-10 text-start d-flex align-items-start justify-content-center gap-4">
                     <img src="./images/icons/news.svg" alt="">
                     <div>
                         <h4>Gaming News</h4>
-                        <p class="my-auto">It's difficult to find examples of lorem ipsum in use before Letraset made it
+                        <p class="text-white opacity-75">It's difficult to find examples of lorem ipsum in use before
+                            Letraset made it
                             popular as a dummy text in the 1960s, although McClintock says he remembers coming across .
                             It's difficult to find examples of lorem ipsum in use before Letraset made it popular as a
                             dummy text in the 1960s, although McClintock says he remembers coming across .</p>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
 
         <!-- Banner Section -->
-        <section class="py-xxl-5" style="background-image: url('./images/banner-2.png');">
-            <h1 class="text-white">Create Your Own Tournaments</h1>
-            <p class="text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use before Letraset
-                made it popular as a dummy text in the 1960s, although McClintock says he remembers coming across.</p>
-            <button class="btn btn-warning">Register Now</button>
+        <section class="my-128 banner w-auto" style="background-image: url('./images/banner-2.png');">
+            <div class="mx-margin w-50">
+                <h1 class="text-white fw-semibold display-5 mb-3">Create Your Own <br>Tournaments</h1>
+                <p class="text-white text-opacity-75 mb-4">It's difficult to find examples of lorem ipsum in use before
+                    Letraset
+                    made it popular as a dummy text in the 1960s, although McClintock says he remembers coming across.
+                </p>
+                <button class="btn btn-warning text-dark fw-semibold fs-5 px-3 py-2">Register Now</button>
+            </div>
         </section>
 
-        <div class="px-5">
-            <!-- Sponsors Section -->
-            <section class="py-xxl-5">
-                <h1 class="text-center text-white">Our Sponsors</h1>
-                <p class="text-center text-white text-opacity-75">It's difficult to find examples of lorem ipsum in use
+        <!-- Sponsors Section -->
+        <section class="my-128 mx-margin">
+            <div class="mx-auto w-75">
+                <h1 class="text-center text-white fw-semibold display-5 mb-3">Our Sponsors</h1>
+                <p class="text-center text-white text-opacity-75 mb-5">It's difficult to find examples of lorem ipsum in
+                    use
                     before Letraset
                     made it popular as a dummy text in the 1960s, although McClintock says he remembers coming across.
                 </p>
+            </div>
 
-                <div class="d-flex align-items-start justify-content-between">
-                    <img src="./images/icons/spotify Logo.svg" alt="">
-                    <img src="./images/icons/Amazon Logo.svg" alt="">
-                    <img src="./images/icons/google Logo.svg" alt="">
-                    <img src="./images/icons/Telerama Logo.svg" alt="">
-                    <img src="./images/icons/figma Logo.svg" alt="">
-                </div>
-            </section>
+            <div class="sponsors d-flex align-items-start justify-content-between">
+                <img src="./images/icons/spotify Logo.svg" alt="">
+                <img src="./images/icons/Amazon Logo.svg" alt="">
+                <img src="./images/icons/google Logo.svg" alt="">
+                <img src="./images/icons/Telerama Logo.svg" alt="">
+                <img src="./images/icons/figma Logo.svg" alt="">
+            </div>
+        </section>
 
-            <!-- Footer Section -->
-            <footer class="bg-warning text-center py-4 mb-5">
-                <p class="my-0 fs-5">All rights reserved copyright &copy2023 gameworld landing page design</p>
-            </footer>
-        </div>
+        <!-- Footer Section -->
+        <footer class="my-128 mx-margin bg-warning text-center py-4 mb-5">
+            <p class="my-0 fs-5">All rights reserved copyright &copy2023 gameworld landing page design</p>
+        </footer>
     </main>
 
 
