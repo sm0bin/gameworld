@@ -25,6 +25,7 @@ header {
 .hero {
     padding-top: 145px;
     padding-bottom: 200px;
+    width: 50%;
 }
 
 .banner {
@@ -68,21 +69,50 @@ header {
     margin-right: 140px;
 }
 
+.c-w-75 {
+    width: 50%;
+}
+
+.banner-w-75 {
+    width: 75%;
+}
 
 /* .sponsors img {
     filter: saturate(0%);
 } */
 
+
+/* Large */
 @media screen and (min-width: 992px) {
     .c-w-50 {
         width: 50%;
     }
+
+    .banner-w-75 {
+        width: 50%;
+    }
 }
 
+/* Tablet */
 @media screen and (max-width: 768px) {
     .mx-margin {
         margin-left: 32px;
         margin-right: 32px;
+    }
+
+    .hero {
+        padding-top: 120px;
+        padding-bottom: 160px;
+        width: 75%;
+    }
+
+    .banner {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .c-w-75 {
+        width: 75%;
     }
 
     /* .my-128 {
@@ -91,6 +121,7 @@ header {
 } */
 }
 
+/* Mobile */
 @media screen and (max-width: 576px) {
     .mx-margin {
         margin-left: 20px;
@@ -100,5 +131,11 @@ header {
     .my-128 {
         margin-top: 80px;
         margin-bottom: 80px;
+    }
+
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 100px;
+        width: 80%;
     }
 }
